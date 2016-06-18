@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.header-image {
+  display:block;
+  width:100%;
+  height:350px;
+  position:relative;
+  z-index: 1;
+
+}
+
+.profile-pic {
+  display: block;
+  width: 120px;
+  height:120px;
+  position: absolute;
+  z-index: 20;
+  top: 42%;
+  left: 15%;
+
+}
+
+.iron-yard {
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.mid-sec {
+  box-sizing:border-box;
+  display:block;
+ padding-left: 50px;
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.body-title {
+  font-size: 32px;
+  font-family: arial;
+  width: 80%;
+
+}
