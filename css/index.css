@@ -63,18 +63,24 @@ body {
 }
 
 .twitter-box {
-  background-color: grey;
+  background-color: white;
   display: block;
   height: 90px;
-  width: 20%;
-  border: 2px solid black;
+  width: 22%;
+  border: 2px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  border-radius:4px;
   position: fixed;
   right: 0px;
   bottom: 30px;
 }
 
 .twitter-top {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgrey;
+}
+
+.twitter-bottom {
+  height: 55px;
 }
 
 .never-post {
@@ -95,7 +101,49 @@ body {
 .twitter-tiy-icon {
   height: 40px;
   width: 40px;
-  padding: 8px 8px 8px 8px;
+  padding: 8px;
   border-radius: 20%;
+}
+
+.tiyhouston {
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+  padding-top: 9px;
+  font-style: 10px black arial;
+}
+
+.box-bot-text {
+  display: inline-block;
+  position: absolute;
+  margin: 0 auto;
+  height: 20px;
+  width: 128px;
+  padding-top: 30px;
+  font-size: 13px
+}
+
+.box-action {
+  display: inline-block;
+  height: 20px;
+  width: 85px;
+  float: right;
+  padding-top: 9px;
+  padding-right: 10px;
+}
+
+.btn {
+  display: block;
+  background-color:#0099FF;
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 9px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-family: arial;
 }
 
