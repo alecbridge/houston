@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
 }
@@ -33,15 +37,65 @@ body {
 .mid-sec {
   box-sizing:border-box;
   display:block;
- padding-left: 50px;
+  padding-left: 50px;
   width: 50%;
   height: 200px;
   margin: 0 auto;
 }
 
 .body-title {
-  font-size: 32px;
+  font-size: 34px;
   font-family: arial;
+  color: #484848;
   width: 80%;
+}
+
+.author-credit {
+  color: #585858;
 
 }
+
+.body-img {
+  width:85%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+}
+
+.twitter-box {
+  background-color: grey;
+  display: block;
+  height: 90px;
+  width: 20%;
+  border: 2px solid black;
+  position: fixed;
+  right: 0px;
+  bottom: 30px;
+}
+
+.twitter-top {
+  border-bottom: 1px solid black;
+}
+
+.never-post {
+  padding-left: 10px;
+  line-height: 35px;
+  font-family: arial;
+}
+
+.x-close {
+  height: 13px;
+  width: 13px;
+  float: right;
+  padding-top: 10px;
+  padding-right: 3px;
+
+}
+
+.twitter-tiy-icon {
+  height: 40px;
+  width: 40px;
+  padding: 8px 8px 8px 8px;
+  border-radius: 20%;
+}
+
